@@ -1,0 +1,17 @@
+﻿code,type,severity,status,node,description
+STR-ROOT-001,ROOT_WITH_PARENT,HIGH,defect,Объект спорта,"Узел 'Объект спорта' имеет тип связи Root, но одновременно связан с родителем 'Физическая культура'."
+STR-ROOT-002,ROOT_WITH_PARENT,HIGH,defect,Физкультурно-спортивная организация,"Узел 'Физкультурно-спортивная организация' имеет тип связи Root, но одновременно связан с родителем 'Организации и объединения'."
+STR-COMP-001,DISCONNECTED_STRUCTURE,MEDIUM,candidate,ONTOLOGY,"Терминосистема состоит из 7 слабосвязных компонент. Размеры компонент: [26, 15, 10, 10, 8, 3, 2]."
+STR-HUB-001,OVERLOADED_PARENT,LOW,candidate,Спорт,Узел имеет 10 непосредственных потомков. Использован эвристический порог >= 5.
+STR-HUB-002,OVERLOADED_PARENT,LOW,candidate,Физическая культура,Узел имеет 6 непосредственных потомков. Использован эвристический порог >= 5.
+STR-HUB-003,OVERLOADED_PARENT,LOW,candidate,Коллективные субъекты,Узел имеет 5 непосредственных потомков. Использован эвристический порог >= 5.
+STR-HUB-004,OVERLOADED_PARENT,LOW,candidate,Организации и объединения,Узел имеет 7 непосредственных потомков. Использован эвристический порог >= 5.
+STR-HUB-005,OVERLOADED_PARENT,LOW,candidate,Физические лица,Узел имеет 8 непосредственных потомков. Использован эвристический порог >= 5.
+STR-MIXREL-001,MIXED_RELATION_TYPES,MEDIUM,candidate,Вид спорта,"Для потомков одного родительского узла используются разные типы отношений: Is-A, Part-Of."
+STR-MIXREL-002,MIXED_RELATION_TYPES,MEDIUM,candidate,Спорт,"Для потомков одного родительского узла используются разные типы отношений: Attribute, Is-A, Part-Of."
+STR-MIXREL-003,MIXED_RELATION_TYPES,MEDIUM,candidate,Спортивная федерация,"Для потомков одного родительского узла используются разные типы отношений: Attribute, Is-A."
+STR-MIXREL-004,MIXED_RELATION_TYPES,MEDIUM,candidate,Спортивное соревнование,"Для потомков одного родительского узла используются разные типы отношений: Attribute, Is-A."
+STR-MIXREL-005,MIXED_RELATION_TYPES,MEDIUM,candidate,Физическая культура,"Для потомков одного родительского узла используются разные типы отношений: Is-A, Root."
+STR-MIXREL-006,MIXED_RELATION_TYPES,MEDIUM,candidate,Коллективные субъекты,"Для потомков одного родительского узла используются разные типы отношений: Is-A, Part-Of."
+STR-MIXREL-007,MIXED_RELATION_TYPES,MEDIUM,candidate,Организации и объединения,"Для потомков одного родительского узла используются разные типы отношений: Is-A, Role, Root."
+STR-MIXREL-008,MIXED_RELATION_TYPES,MEDIUM,candidate,Физические лица,"Для потомков одного родительского узла используются разные типы отношений: Is-A, Role."
